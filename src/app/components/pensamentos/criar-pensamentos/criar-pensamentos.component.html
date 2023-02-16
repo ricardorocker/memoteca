@@ -4,10 +4,12 @@
   </header>
   <form>
     <label for="pensamento">Pensamento</label>
-    <input type="textarea" class="input" name="pensamento" id="pensamento" placeholder="Digite o pensamento" [value]="pensamento.conteudo">
+    <input type="textarea" class="input" name="pensamento" id="pensamento" placeholder="Digite o pensamento"
+      [(ngModel)]="pensamento.conteudo">
 
     <label for="autoria">Autoria ou fonte</label>
-    <input type="text" class="input" name="autoria" id="autoria" placeholder="Digite a autoria ou fonte" [value]="pensamento.autoria">
+    <input type="text" class="input" name="autoria" id="autoria" placeholder="Digite a autoria ou fonte"
+      [(ngModel)]="pensamento.autoria">
 
     <label for="modelo">Selecione o modelo do card:</label>
     <div class="container-radio">
