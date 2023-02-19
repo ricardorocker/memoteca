@@ -17,7 +17,12 @@
       "conteudo": "Minha propriedade é decorada com @Input()",
       "autoria": "Component filho",
       "modelo": "modelo2"
+    },
+    {
+      "conteudo": "Testando http.post()",
+      "autoria": "Ricardo Rocker",
+      "modelo": "modelo1",
+      "id": 4
     }
   ]
 }
-
