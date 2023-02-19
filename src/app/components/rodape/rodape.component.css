@@ -18,6 +18,7 @@ footer {
 .LogoRodape {
   justify-self: center;
   grid-area: LogoRodape;
+  color: #fff;
 }
 
 footer small {
