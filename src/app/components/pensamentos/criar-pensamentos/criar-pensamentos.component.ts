@@ -22,7 +22,8 @@ export class CriarPensamentosComponent {
   ngOnInit(): void {
     this.formulario = this.formBuilder.group({
       conteudo: ['', Validators.compose([Validators.required, Validators.pattern(/(.|\s)*\S(.|\s)*/)])],
-      autoria: ['', Validators.compose([Validators.required, Validators.minLength(3), minusculoValidator])],
+      autoria: ['', Validators.compose([Validators.required, Validators.minLength(3)])], //minusculoValidator removido para testar
+      // autoria: ['', Validators.compose([Validators.required, Validators.minLength(3), minusculoValidator])],
       modelo: ['modelo1']
     })
   }

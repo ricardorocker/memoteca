@@ -1,12 +1,6 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Não andeis ansiosos por coisa alguma; antes em tudo sejam os vossos pedidos conhecidos diante de Deus pela oração e súplica com ações de graças; e a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos pensamentos em Cristo Jesus.",
-      "autoria": "Filipenses 4:6-7",
-      "modelo": "modelo3"
-    },
-    {
       "id": 2,
       "conteudo": "Passo informações para o componente filho",
       "autoria": "Component pai",
@@ -23,6 +17,96 @@
       "conteudo": "Praticing Reactive Forms",
       "autoria": "Ricardo Rocker",
       "modelo": "modelo1"
+    },
+    {
+      "id": 5,
+      "conteudo": "Porque vivemos por fé, e não pelo que vemos.",
+      "autoria": "2 Coríntios 5:7",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Tudo o que fizerem, façam de todo o coração, como para o Senhor e não para as pessoas...",
+      "autoria": "Colossenses 3:23",
+      "modelo": "modelo3",
+      "id": 6
+    },
+    {
+      "conteudo": "Esta é minha ordem: Seja forte e corajoso! Não tenha medo nem desanime, pois o Senhor , seu Deus, estará com você por onde você andar.",
+      "autoria": "Josué 1:9",
+      "modelo": "modelo3",
+      "id": 7
+    },
+    {
+      "conteudo": "Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.",
+      "autoria": "1 Pedro 5:7",
+      "modelo": "modelo3",
+      "id": 8
+    },
+    {
+      "conteudo": "Entregue o seu caminho ao Senhor , confie nele, e o mais ele fará.",
+      "autoria": "Salmos 37:5",
+      "modelo": "modelo3",
+      "id": 9
+    },
+    {
+      "conteudo": "Sei que podes fazer todas as coisas; nenhum dos teus planos pode ser frustrado.",
+      "autoria": "Jó 42:2",
+      "modelo": "modelo3",
+      "id": 10
+    },
+    {
+      "conteudo": "Venham a mim todos vocês que estão cansados e sobrecarregados, e eu os aliviarei.",
+      "autoria": "Mateus 11:28",
+      "modelo": "modelo3",
+      "id": 11
+    },
+    {
+      "conteudo": "Tenho-vos dito isso, para que em mim tenhais paz; no mundo tereis aflições, mas tende bom ânimo; eu venci o mundo.",
+      "autoria": "João 16:33",
+      "modelo": "modelo1",
+      "id": 12
+    },
+    {
+      "conteudo": "Escondi a tua palavra no meu coração, para eu não pecar contra ti.",
+      "autoria": "Salmos 119:11",
+      "modelo": "modelo3",
+      "id": 13
+    },
+    {
+      "conteudo": "E conhecereis a verdade, e a verdade vos libertará.",
+      "autoria": "João 8:32",
+      "modelo": "modelo3",
+      "id": 14
+    },
+    {
+      "conteudo": "Respondeu Jesus: \"Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.",
+      "autoria": "João 14:6",
+      "modelo": "modelo3",
+      "id": 15
+    },
+    {
+      "conteudo": "Façam tudo com amor.",
+      "autoria": "1 Coríntios 16:14",
+      "modelo": "modelo3",
+      "id": 16
+    },
+    {
+      "conteudo": "Ame o Senhor, o seu Deus de todo o seu coração, de toda a sua alma, de todo o seu entendimento e de todas as suas forças.",
+      "autoria": "Marcos 12:30",
+      "modelo": "modelo3",
+      "id": 17
+    },
+    {
+      "conteudo": "O amor tudo sofre, tudo crê, tudo espera, tudo suporta.",
+      "autoria": "1 Coríntios 13:7",
+      "modelo": "modelo3",
+      "id": 18
+    },
+    {
+      "conteudo": "Nisto todos conhecerão que vocês são meus discípulos: se tiverem amor uns aos outros.",
+      "autoria": "João 13:35",
+      "modelo": "modelo3",
+      "id": 19
     }
   ]
 }
