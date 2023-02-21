@@ -1,7 +1,7 @@
 <section class="container">
   <header class="header d-flex">
     <div class="buscar-pensamentos">
-      <input type="search" class="filtro" placeholder="🔍 O que voce procura?" autofocus [(ngModel)]="filtro">
+      <input type="search" class="filtro" placeholder="🔍 O que voce procura?" autofocus [(ngModel)]="filtro" (keyup)="pesquisarPensamentos()">
     </div>
     <h2 class="ff-inter">Meu Mural</h2>
     <button routerLink="/criarPensamento" class="botao">Adicionar Pensamento</button>
