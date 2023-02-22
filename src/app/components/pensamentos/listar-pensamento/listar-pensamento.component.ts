@@ -10,6 +10,7 @@ import { Pensamento } from './../pensamento';
 })
 export class ListarPensamentoComponent implements OnInit {
   listaPensamentos: Pensamento[] = [];
+  listaFavoritos: Pensamento[] = [];
   paginaAtual: number = 1;
   haMaisPensamentos: boolean = true;
   filtro: string = '';
@@ -47,6 +48,7 @@ export class ListarPensamentoComponent implements OnInit {
     this.service.listar(this.paginaAtual, this.filtro, this.favoritos)
       .subscribe((listaPensamentosFavoritos) => {
         this.listaPensamentos = listaPensamentosFavoritos;
+        this.listaFavoritos = listaPensamentosFavoritos;
       })
   }
 
