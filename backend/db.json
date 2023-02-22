@@ -4,109 +4,127 @@
       "id": 2,
       "conteudo": "Passo informações para o componente filho",
       "autoria": "Component pai",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Minha propriedade é decorada com @Input()",
       "autoria": "Component filho",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 4,
       "conteudo": "Praticing Reactive Forms",
       "autoria": "Ricardo Rocker",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 5,
       "conteudo": "Porque vivemos por fé, e não pelo que vemos.",
       "autoria": "2 Coríntios 5:7",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
+      "id": 6,
       "conteudo": "Tudo o que fizerem, façam de todo o coração, como para o Senhor e não para as pessoas...",
       "autoria": "Colossenses 3:23",
       "modelo": "modelo3",
-      "id": 6
+      "favorito": true
     },
     {
+      "id": 7,
       "conteudo": "Esta é minha ordem: Seja forte e corajoso! Não tenha medo nem desanime, pois o Senhor , seu Deus, estará com você por onde você andar.",
       "autoria": "Josué 1:9",
       "modelo": "modelo3",
-      "id": 7
+      "favorito": false
     },
     {
+      "id": 8,
       "conteudo": "Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.",
       "autoria": "1 Pedro 5:7",
       "modelo": "modelo3",
-      "id": 8
+      "favorito": true
     },
     {
+      "id": 9,
       "conteudo": "Entregue o seu caminho ao Senhor , confie nele, e o mais ele fará.",
       "autoria": "Salmos 37:5",
       "modelo": "modelo3",
-      "id": 9
+      "favorito": false
     },
     {
+      "id": 10,
       "conteudo": "Sei que podes fazer todas as coisas; nenhum dos teus planos pode ser frustrado.",
       "autoria": "Jó 42:2",
       "modelo": "modelo3",
-      "id": 10
+      "favorito": false
     },
     {
+      "id": 11,
       "conteudo": "Venham a mim todos vocês que estão cansados e sobrecarregados, e eu os aliviarei.",
       "autoria": "Mateus 11:28",
       "modelo": "modelo3",
-      "id": 11
+      "favorito": false
     },
     {
+      "id": 12,
       "conteudo": "Tenho-vos dito isso, para que em mim tenhais paz; no mundo tereis aflições, mas tende bom ânimo; eu venci o mundo.",
       "autoria": "João 16:33",
       "modelo": "modelo1",
-      "id": 12
+      "favorito": false
     },
     {
+      "id": 13,
       "conteudo": "Escondi a tua palavra no meu coração, para eu não pecar contra ti.",
       "autoria": "Salmos 119:11",
       "modelo": "modelo3",
-      "id": 13
+      "favorito": false
     },
     {
+      "id": 14,
       "conteudo": "E conhecereis a verdade, e a verdade vos libertará.",
       "autoria": "João 8:32",
       "modelo": "modelo3",
-      "id": 14
+      "favorito": false
     },
     {
+      "id": 15,
       "conteudo": "Respondeu Jesus: \"Eu sou o caminho, a verdade e a vida. Ninguém vem ao Pai, a não ser por mim.",
       "autoria": "João 14:6",
       "modelo": "modelo3",
-      "id": 15
+      "favorito": false
     },
     {
+      "id": 16,
       "conteudo": "Façam tudo com amor.",
       "autoria": "1 Coríntios 16:14",
       "modelo": "modelo3",
-      "id": 16
+      "favorito": false
     },
     {
+      "id": 17,
       "conteudo": "Ame o Senhor, o seu Deus de todo o seu coração, de toda a sua alma, de todo o seu entendimento e de todas as suas forças.",
       "autoria": "Marcos 12:30",
       "modelo": "modelo3",
-      "id": 17
+      "favorito": false
     },
     {
+      "id": 18,
       "conteudo": "O amor tudo sofre, tudo crê, tudo espera, tudo suporta.",
       "autoria": "1 Coríntios 13:7",
       "modelo": "modelo3",
-      "id": 18
+      "favorito": false
     },
     {
+      "id": 19,
       "conteudo": "Nisto todos conhecerão que vocês são meus discípulos: se tiverem amor uns aos outros.",
       "autoria": "João 13:35",
       "modelo": "modelo3",
-      "id": 19
+      "favorito": false
     }
   ]
 }

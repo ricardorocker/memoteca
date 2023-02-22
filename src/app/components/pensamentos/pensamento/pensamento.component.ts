@@ -12,7 +12,8 @@ export class PensamentoComponent {
     id: 0,
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
 
   larguraPensamento(): string {
@@ -20,6 +21,13 @@ export class PensamentoComponent {
       return 'pensamento-g';
     }
     return 'pensamento-p'
+  }
+
+  mudarIconeFavorito(): string {
+    if (this.pensamento.favorito == false) {
+      return 'inativo';
+    }
+    return 'ativo';
   }
 
 }
