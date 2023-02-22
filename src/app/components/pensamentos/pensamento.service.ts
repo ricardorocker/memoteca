@@ -23,6 +23,18 @@ export class PensamentoService {
     return this.http.get<Pensamento[]>(this.API, { params: parametros });
   }
 
+  listarPensamentosFavoritos(pagina: number, filtro: string): Observable<Pensamento[]>{
+    const itensPorPagina = 6;
+
+    let parametros = new HttpParams().set("_page", pagina).set("_limit", itensPorPagina).set("favorito", true);
+
+    if (filtro.trim().length > 1) {
+      parametros = parametros.set("q", filtro);
+    }
+
+    return this.http.get<Pensamento[]>(this.API, { params: parametros });
+  }
+
   criar(pensamento: Pensamento): Observable<Pensamento> {
     return this.http.post<Pensamento>(this.API, pensamento);
   }
