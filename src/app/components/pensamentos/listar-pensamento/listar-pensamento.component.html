@@ -3,7 +3,7 @@
     <div class="buscar-pensamentos">
       <input type="search" class="filtro" placeholder="🔍 O que voce procura?" autofocus [(ngModel)]="filtro" (keyup)="pesquisarPensamentos()">
     </div>
-    <h2 class="ff-inter">Meu Mural</h2>
+    <h2 class="ff-inter">{{ titulo }}</h2>
     <div class="botoes">
       <button class="botao" (click)="recarregarPensamentos()">Meu Mural</button>
       <button class="botao" (click)="listarFavoritos()">Meus Favoritos</button>
