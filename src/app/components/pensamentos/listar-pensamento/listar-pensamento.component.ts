@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 
 import { PensamentoService } from './../pensamento.service';
@@ -16,9 +17,16 @@ export class ListarPensamentoComponent implements OnInit {
   filtro: string = '';
   favoritos: boolean = false;
 
-  constructor(private service: PensamentoService) { }
+  constructor(
+    private service: PensamentoService,
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
+    this.carregarPensamentos();
+  }
+
+  carregarPensamentos() {
     this.service.listar(this.paginaAtual, this.filtro, this.favoritos).subscribe((listaPensamentos) => {
       this.listaPensamentos = listaPensamentos
     })
@@ -31,6 +39,11 @@ export class ListarPensamentoComponent implements OnInit {
         this.haMaisPensamentos = false;
       }
     })
+  }
+
+  recarregarPensamentos() {
+    this.favoritos = false;
+    this.carregarPensamentos();
   }
 
   pesquisarPensamentos() {

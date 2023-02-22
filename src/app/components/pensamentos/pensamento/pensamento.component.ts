@@ -36,8 +36,6 @@ export class PensamentoComponent {
 
   atualizarFavoritos() {
     this.service.mudarFavorito(this.pensamento).subscribe(() => {
-      console.log(this.listaFavoritos);
-      console.log(this.pensamento);
       this.listaFavoritos.splice(this.listaFavoritos.indexOf(this.pensamento), 1);
     });
   }
